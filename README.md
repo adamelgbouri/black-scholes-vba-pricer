@@ -1,14 +1,18 @@
 # Black-Scholes VBA Option Pricer
 
-European option pricing engine implemented in Excel with VBA automation.
+Implementation of the Black-Scholes-Merton model for pricing European options in Excel with VBA automation.
 
-The model computes:
+## Features
 
-- Call and put prices
-- d1 and d2
-- Full Greeks (Delta, Gamma, Vega, Theta, Rho)
+- Closed-form pricing of European calls and puts
+- Computation of \( d_1 \) and \( d_2 \)
+- Full set of Greeks: Delta, Gamma, Vega, Theta, Rho
+- Automated calculation via VBA macro
 
-All calculations are executed via a VBA macro triggered by a "Start" button.
+All pricing and sensitivity measures are computed dynamically when the user triggers the macro through the interface.
 
-📄 Full technical documentation:  
-See `Black_Scholes_Option_Pricing_Model_in_Excel_and_VBA - Report.pdf`
+## Documentation
+
+Full technical report available in:
+
+`Black_Scholes_Option_Pricing_Model_in_Excel_and_VBA_Report.pdf`
